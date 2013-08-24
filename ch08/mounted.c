@@ -3,6 +3,7 @@
 /* NOTE: GNU/Linux specific! */
 
 #include <stdio.h>
+#include <string.h> /* for strerror() */
 #include <errno.h>
 #include <mntent.h> /* for getmntent(), et al. */
 #include <unistd.h> /* for getopt() */

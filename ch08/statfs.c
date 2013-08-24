@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h> /* for strerror() */
 #include <errno.h>
 #include <mntent.h> /* for getmntent(), et al. */
 #include <unistd.h> /* for getopt() */
